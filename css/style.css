@@ -198,6 +198,10 @@ body {
   color: #fff600;
 }
 
+.containerContactos .mapaContactos {
+  width: 100%;
+}
+
 /*@medias queries*/
 @media screen and (max-width: 1500px) {
   .container {
@@ -215,13 +219,13 @@ body {
 }
 @media screen and (max-width: 1300px) {
   .container {
-    width: 1200px;
+    width: 1300px;
   }
   .card2 {
-    width: 500px;
+    width: 470px;
   }
   .card1 {
-    width: 500px;
+    width: 470px;
   }
   .mapa {
     width: 560px;
@@ -238,17 +242,17 @@ body {
     padding: 0%;
   }
   .card2 {
-    width: 412px;
+    width: 400px;
   }
   .card1 {
-    width: 412px;
+    width: 400px;
   }
   .mapa {
     width: 400px;
   }
 }
 @media screen and (max-width: 987px) {
-  .pruebacarousel {
+  .carouselIndex {
     margin-top: 10%;
   }
   .actividades {
@@ -261,10 +265,10 @@ body {
     padding: 0%;
   }
   .card2 {
-    width: 290px;
+    width: 700px;
   }
   .card1 {
-    width: 290px;
+    width: 700px;
   }
   .mapa {
     width: 350px;
@@ -349,9 +353,12 @@ body {
   .mapa {
     width: 501px;
   }
+  .card-styles {
+    margin-right: 10px;
+  }
 }
 @media screen and (max-width: 570px) {
-  .pruebacarousel {
+  .carouselIndex {
     margin-top: 15%;
   }
   .actividades {
@@ -374,7 +381,7 @@ body {
   }
 }
 @media screen and (max-width: 470px) {
-  .pruebacarousel {
+  .carouselIndex {
     margin-top: 20%;
   }
   .titulo1 {
@@ -401,7 +408,7 @@ body {
   }
 }
 @media screen and (max-width: 370px) {
-  .pruebacarousel {
+  .carouselIndex {
     margin-top: 20%;
   }
   .titulo1 {
@@ -431,15 +438,27 @@ body {
   .card2 {
     width: 280px;
   }
+  .card2 img {
+    height: 50vh;
+  }
   .card1 {
     width: 280px;
+  }
+  .card1 img {
+    height: 50vh;
+  }
+  .navbar-titulo {
+    display: none;
+  }
+  .navbar-brand img {
+    text-align: center;
   }
   .mapa {
     width: 280px;
   }
 }
 @media screen and (max-width: 330px) {
-  .pruebacarousel {
+  .carouselIndex {
     margin-top: 25%;
   }
   .actividades {
@@ -452,17 +471,17 @@ body {
     padding: 0%;
   }
   .card2 {
-    width: 240px;
+    width: 280px;
   }
   .card1 {
-    width: 240px;
+    width: 280px;
   }
   .mapa {
     width: 240px;
   }
 }
 @media screen and (max-width: 328px) {
-  .pruebacarousel {
+  .carouselIndex {
     margin-top: 30%;
   }
   .actividades {
