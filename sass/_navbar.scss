@@ -1,0 +1,28 @@
+@use 'variables';
+.navbar{
+    background-color: black;
+    a{
+        color: variables.$color-1;
+        &:hover{
+            color: variables.$color-hover;
+        }
+    }
+    &-collapse{
+        width: 0%;
+        height: 0%;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 0%;
+    }
+    &-titulo{
+        font-family: 'Oswald', sans-serif;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        a{
+            &:hover{
+                color:variables.$color-1;
+            }
+        }
+    }
+}
