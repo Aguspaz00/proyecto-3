@@ -1,0 +1,42 @@
+@use 'variables';
+.footer{
+    width: 100%;
+    border-radius: 25px;
+    .border-bottom{
+        border-radius: 0px;
+        background-color: variables.$color-1;
+    }
+    .seguinos-en{
+        color:variables.$color-5;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+    }
+    .redes{
+        li{
+            list-style: none;
+            text-decoration: none;
+            a{
+                .i-1{
+                    &:hover{
+                        color: variables.$color-facebook;
+                     }
+                }
+                .i-2{
+                    &:hover{
+                        color: variables.$color-twitter;
+                    }
+                }
+                .i-3{
+                    &:hover{
+                        color:variables.$color-google;
+                    }
+                }
+                .i-4{
+                    &:hover{
+                        color:variables.$color-instagram;
+                    }
+                }
+            }
+        }
+    }
+}
