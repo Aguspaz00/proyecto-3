@@ -1,0 +1,341 @@
+/* partials: complementos de estilos. Necesita ser nombrado con un guion bajo (_) antes del nombre , tambien tiene que ser llamado desde la hoja principal de sass con @use ( y entre comillas simples poner el nombre del partial sin guiones ni.scss) '.....'. Para ocupar un partial en otro documento sass es necesario llamarlo de la siguiente manera @use '.....' y en la clase donde quieras aplicar los complementos de este partial es necesario poner (nombre del partial)_______.$color; (luego del punto va la propiedad + el nombre; por ej $color)
+-@extend: se usa para extender las propiedades de una clase origen a otra clase que llev elas mismas propiedades. Ejemplo: 
+.boton1{
+    widht:80px
+}
+.boton2{
+    @extend .boton1    (primero va el @extend y luego la clase de la cual queres extender las propiedades)
+}
+@mixins: tiene el mismo uso que los extends, a¡la unica diferencia es que te permite añadirles argumentos y que las lineas de codigos de estilos son divididas y no se complementan como lo hace el @extend. Se ultiliza de la siguiente manera:
+(creo un mixin) @mixin (+ el nombre) fulano ($widht,$height){
+    widht:$widht;
+    height:$height;
+}(argumento entre parentesis, esto es opcional)
+Para poner la propiedad del mixin en alguna clase se utiliza @include fulano(+nombre del mixin) (50px, 80px) (y los parentesis entendiendo el orden de las propiedades que pusiste en el mixin) */
+
+@use 'navbar';
+@use 'variables';
+@use 'index-styles';
+@use 'footer';
+@use 'mixins';
+
+/*body*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(./imagenes.jpg/HD-.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    margin:0%;
+    padding: 0%;
+}
+.height-salon{
+    max-width:100%;
+    max-height: 68vh;
+}
+.card-salon{
+    .card{
+        background: rgb(0, 0, 0);
+        margin:2px;
+        img{
+            max-width: 100%;
+            max-height: 75vh;
+        }
+        h5{
+            color: variables.$color-1;
+        }
+    }
+}
+/*@medias queries*/
+@media screen and (max-width: 1500px){
+    .container{
+        width: 1200px;
+    }
+    .card2{
+        width: 500px;
+    }
+    .card1{
+        width:500px;
+    }
+    .mapa{
+        width: 560px;
+    }
+}
+@media screen and (max-width: 1300px){
+    .container{
+        width: 1200px;
+    }
+    .card2{
+        width: 500px;
+    }
+    .card1{
+        width:500px;
+    }
+    .mapa{
+        width: 560px;
+    }
+}
+@media screen and (max-width: 1198px){
+    .actividades{
+        width:100%;
+        margin:0%;
+    }
+    .container{
+        width:1198px;
+        margin:0%;
+        padding: 0%;
+    }
+    .card2{
+        width: 412px;
+    }
+    .card1{
+        width:412px;
+    }
+    .mapa{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 987px){
+    .pruebacarousel{
+        margin-top: 10%;
+    }
+    .actividades{
+        width:100%;
+        margin:0%;
+    }
+    .container{
+        width:987px;
+        margin:0%;
+        padding: 0%;
+    }
+    .card2{
+        width: 290px;
+    }
+    .card1{
+        width:290px;
+    }
+    .mapa{
+        width:350px;
+    }
+}
+@media screen and (max-width:850px) {
+    .actividades{
+        width:100%;
+        margin:0%;
+    }
+    .container{
+        width:100%;
+        margin:0%;
+        padding: 0%;
+    }
+    .card2{
+        width:501px;
+    }
+    .card1{
+        width:501px;
+    }
+    .mapa{
+        width: 351px;
+    }
+}
+@media screen and (max-width:830px) {
+    .actividades{
+        width:100%;
+        margin:0%;
+    }
+    .container{
+        width:100%;
+        margin:0%;
+        padding: 0%;
+    }
+    .card2{
+        width:501px;
+    }
+    .card1{
+        width:501px;
+    }
+    .mapa{
+        width:351px;
+    }
+}
+@media screen and (max-width:790px) {
+    .actividades{
+        width:100%;
+        margin:0%;
+    }
+    .container{
+        width:100%;
+        margin:0%;
+        padding: 0%;
+    }
+    .card2{
+        width:501px;
+    }
+    .card1{
+        width:501px;
+    }
+    .mapa{
+        width:610px;
+    }
+}
+
+@media screen and (max-width: 670px){
+    .actividades{
+        width:100%;
+        margin:0%;
+    }
+    .container{
+        width:100%;
+        margin:0%;
+        padding: 0%;
+    }
+    .card2{
+        width:501px;
+    }
+    .card1{
+        width:501px;
+    }
+    .mapa{
+        width: 501px;
+    }
+}
+@media screen and (max-width: 570px){
+    .pruebacarousel{
+        margin-top: 15%;
+    }
+    .actividades{
+        width:100%;
+        margin:0%;
+    }
+    .container{
+        width:100%;
+        margin:0%;
+        padding: 0%;
+    }
+    .card2{
+        width:400px;
+    }
+    .card1{
+        width:400px;
+    }
+    .mapa{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 470px){
+    .pruebacarousel{
+        margin-top: 20%; 
+    }
+    .titulo1{
+        width: 50%;
+        padding-left: 0px;
+    }
+    .actividades{
+        width:100%;
+        margin:0%;
+    }
+    .container{
+        width:100%;
+        margin:0%;
+        padding: 0%;
+    }
+    .card2{
+        width:320px;
+    }
+    .card1{
+        width:320px;
+    }
+    .mapa{
+        width: 320px;
+    }
+}
+@media screen and (max-width: 370px){
+    .pruebacarousel{
+        margin-top: 20%; 
+    }
+    .titulo1{
+        width: 54%;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+    }
+    .navbar img{
+        width: 100%;
+    }
+    .navbar-toggler{
+        width: 15%;
+    }
+    .navbar-toggler:visited{
+        border: none;
+    }
+    .actividades{
+        width:100%;
+        margin:0%;
+    }
+    .container{
+        width:100%;
+        margin:0%;
+        padding: 0%;
+    }
+    .card2{
+        width:280px;
+    }
+    .card1{
+        width:280px;
+    }
+    .mapa{
+        width: 280px;
+    }
+}
+@media screen and (max-width: 330px){
+    .pruebacarousel{
+        margin-top: 25%;
+    }
+    .actividades{
+        width:100%;
+        margin:0%;
+    }
+    .container{
+        width:100%;
+        margin:0%;
+        padding: 0%;
+    }
+    .card2{
+        width:240px;
+    }
+    .card1{
+        width:240px;
+    }
+    .mapa{
+        width: 240px;
+    }
+}
+@media screen and (max-width: 328px){
+    .pruebacarousel{
+        margin-top: 30%;
+    }
+    .actividades{
+        width:100%;
+        margin:0%;
+    }
+    .container{
+        width:100%;
+        margin:0%;
+        padding: 0%;
+    }
+    .card2{
+        width:260px;
+    }
+    .card1{
+        width:260px;
+    }
+    .mapa{
+        width: 260px;
+    }
+}
+
