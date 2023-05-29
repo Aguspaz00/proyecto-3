@@ -1,0 +1,79 @@
+@use 'variables';
+@mixin padding-card ($padding-bottom){
+    padding-bottom: $padding-bottom;
+}
+@mixin propiedades-cards{
+    padding:0%;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    border: rgba(234, 255, 3, 0) 2px solid;
+    border-radius: 20px;
+    img{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .card-body{
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .card-text{
+        border-bottom-left-radius: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    h5{
+        color: variables.$color-1;
+        margin-bottom: 0.5%;
+        &:hover{
+            color: variables.$color-hover;
+        }
+    }
+    p{
+        color: variables.$color-texto;
+        width: 100%;
+        text-align: start;
+    }
+}
+@mixin titulos{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: variables.$color-1;
+    background-color:none ;
+}
+@mixin card-height{
+    height: 600px;
+}
+@mixin subtitulosSalon{
+    position: absolute;
+    text-align: center;
+    right: 15%;
+    left: 15%;
+    h5{
+        color: variables.$color-1;
+        font-size: 25px;
+    }
+    p{
+        background-color: rgba(0, 0, 0, 0.729);
+        border-radius: 20px;
+    }
+}
+.subtitulosSalon{
+    @include subtitulosSalon;
+}
+.card-height{
+    @include card-height;
+}
+.card-styles {
+    @include propiedades-cards;
+}
+.titulo-aventura{
+    @include titulos;
+}
+.titulo-senderos{
+    @include titulos;
+}
+.cafeteria-titulo{
+    @include titulos;
+}
