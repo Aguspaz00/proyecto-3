@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .navbar {
   background-color: black;
 }
@@ -151,20 +150,6 @@ p {
   background-color: none;
 }
 
-/* partials: complementos de estilos. Necesita ser nombrado con un guion bajo (_) antes del nombre , tambien tiene que ser llamado desde la hoja principal de sass con @use ( y entre comillas simples poner el nombre del partial sin guiones ni.scss) '.....'. Para ocupar un partial en otro documento sass es necesario llamarlo de la siguiente manera @use '.....' y en la clase donde quieras aplicar los complementos de este partial es necesario poner (nombre del partial)_______.$color; (luego del punto va la propiedad + el nombre; por ej $color)
--@extend: se usa para extender las propiedades de una clase origen a otra clase que llev elas mismas propiedades. Ejemplo: 
-.boton1{
-    widht:80px
-}
-.boton2{
-    @extend .boton1    (primero va el @extend y luego la clase de la cual queres extender las propiedades)
-}
-@mixins: tiene el mismo uso que los extends, a¡la unica diferencia es que te permite añadirles argumentos y que las lineas de codigos de estilos son divididas y no se complementan como lo hace el @extend. Se ultiliza de la siguiente manera:
-(creo un mixin) @mixin (+ el nombre) fulano ($widht,$height){
-    widht:$widht;
-    height:$height;
-}(argumento entre parentesis, esto es opcional)
-Para poner la propiedad del mixin en alguna clase se utiliza @include fulano(+nombre del mixin) (50px, 80px) (y los parentesis entendiendo el orden de las propiedades que pusiste en el mixin) */
 /*body*/
 * {
   padding: 0;
