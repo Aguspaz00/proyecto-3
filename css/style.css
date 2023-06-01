@@ -45,10 +45,8 @@ p {
 
 .footer {
   width: 100%;
-  border-radius: 25px;
 }
 .footer .border-bottom {
-  border-radius: 0px;
   background-color: #fff600;
 }
 .footer .seguinos-en {
@@ -187,7 +185,25 @@ body {
   width: 100%;
 }
 
+.width-actividades {
+  width: 100%;
+}
+
 /*@medias queries*/
+@media screen and (max-width: 1600px) {
+  .container {
+    width: 1200px;
+  }
+  .card2 {
+    width: 500px;
+  }
+  .card1 {
+    width: 500px;
+  }
+  .mapa {
+    width: 560px;
+  }
+}
 @media screen and (max-width: 1500px) {
   .container {
     width: 1200px;
@@ -290,10 +306,10 @@ body {
     padding: 0%;
   }
   .card2 {
-    width: 501px;
+    width: 660px;
   }
   .card1 {
-    width: 501px;
+    width: 660px;
   }
   .mapa {
     width: 351px;
@@ -310,13 +326,13 @@ body {
     padding: 0%;
   }
   .card2 {
-    width: 501px;
+    width: 660px;
   }
   .card1 {
-    width: 501px;
+    width: 660px;
   }
   .mapa {
-    width: 610px;
+    width: 350px;
   }
 }
 @media screen and (max-width: 670px) {
@@ -342,12 +358,9 @@ body {
     margin-right: 10px;
   }
 }
-@media screen and (max-width: 570px) {
-  .carouselIndex {
-    margin-top: 15%;
-  }
+@media screen and (max-width: 660px) {
   .actividades {
-    width: 100%;
+    width: 500px;
     margin: 0%;
   }
   .container {
@@ -356,13 +369,36 @@ body {
     padding: 0%;
   }
   .card2 {
-    width: 400px;
+    width: 500px;
   }
   .card1 {
-    width: 400px;
+    width: 500px;
   }
   .mapa {
+    width: 480px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .carouselIndex {
+    margin-top: 15%;
+  }
+  .actividades {
     width: 400px;
+    margin: 0%;
+  }
+  .container {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+  .card2 {
+    width: 420px;
+  }
+  .card1 {
+    width: 420px;
+  }
+  .mapa {
+    width: 450px;
   }
 }
 @media screen and (max-width: 470px) {
@@ -374,7 +410,7 @@ body {
     padding-left: 0px;
   }
   .actividades {
-    width: 100%;
+    width: 300px;
     margin: 0%;
   }
   .container {
@@ -383,10 +419,16 @@ body {
     padding: 0%;
   }
   .card2 {
-    width: 320px;
+    width: 350px;
+  }
+  .card2 img {
+    max-height: 70vh;
   }
   .card1 {
-    width: 320px;
+    width: 350px;
+  }
+  .card1 img {
+    max-height: 70vh;
   }
   .mapa {
     width: 320px;
@@ -395,6 +437,12 @@ body {
 @media screen and (max-width: 370px) {
   .carouselIndex {
     margin-top: 20%;
+    width: 100%;
+    height: 100%;
+  }
+  .carouselIndex img {
+    height: 60vh;
+    width: 100%;
   }
   .titulo1 {
     width: 54%;
@@ -412,7 +460,7 @@ body {
     border: none;
   }
   .actividades {
-    width: 100%;
+    width: 300px;
     margin: 0%;
   }
   .container {
@@ -421,13 +469,13 @@ body {
     padding: 0%;
   }
   .card2 {
-    width: 280px;
+    width: 250px;
   }
   .card2 img {
     height: 50vh;
   }
   .card1 {
-    width: 280px;
+    width: 250px;
   }
   .card1 img {
     height: 50vh;
@@ -447,7 +495,7 @@ body {
     margin-top: 25%;
   }
   .actividades {
-    width: 100%;
+    width: 250px;
     margin: 0%;
   }
   .container {
@@ -456,13 +504,23 @@ body {
     padding: 0%;
   }
   .card2 {
-    width: 280px;
+    width: 250px;
   }
   .card1 {
-    width: 280px;
+    width: 250px;
+  }
+  footer {
+    width: 200px;
+  }
+  footer .redes {
+    text-align: center;
+    margin-left: 40px;
+  }
+  footer .seguinos-en {
+    display: none;
   }
   .mapa {
-    width: 240px;
+    width: 250px;
   }
 }
 @media screen and (max-width: 328px) {
@@ -470,7 +528,7 @@ body {
     margin-top: 30%;
   }
   .actividades {
-    width: 100%;
+    width: 200px;
     margin: 0%;
   }
   .container {
@@ -479,10 +537,13 @@ body {
     padding: 0%;
   }
   .card2 {
-    width: 260px;
+    width: 230px;
+  }
+  .card2 h5 {
+    font-size: 19px;
   }
   .card1 {
-    width: 260px;
+    width: 230px;
   }
   .mapa {
     width: 260px;

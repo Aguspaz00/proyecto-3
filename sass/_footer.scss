@@ -1,9 +1,7 @@
 @use 'variables';
 .footer{
     width: 100%;
-    border-radius: 25px;
     .border-bottom{
-        border-radius: 0px;
         background-color: variables.$color-1;
     }
     .seguinos-en{
