@@ -189,6 +189,10 @@ body {
   width: 100%;
 }
 
+.width-actividades-senderos {
+  width: 100%;
+}
+
 /*@medias queries*/
 @media screen and (max-width: 1600px) {
   .container {
@@ -230,6 +234,10 @@ body {
   }
   .mapa {
     width: 560px;
+  }
+  .width-actividades-senderos {
+    width: 89%;
+    padding-left: 10%;
   }
 }
 @media screen and (max-width: 1198px) {
@@ -326,10 +334,10 @@ body {
     padding: 0%;
   }
   .card2 {
-    width: 660px;
+    width: 550px;
   }
   .card1 {
-    width: 660px;
+    width: 550px;
   }
   .mapa {
     width: 350px;
@@ -376,6 +384,10 @@ body {
   }
   .mapa {
     width: 480px;
+  }
+  .width-actividades-senderos {
+    width: 80%;
+    padding-left: 0%;
   }
 }
 @media screen and (max-width: 570px) {
@@ -434,7 +446,7 @@ body {
     width: 320px;
   }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 400px) {
   .carouselIndex {
     margin-top: 20%;
     width: 100%;
@@ -469,15 +481,17 @@ body {
     padding: 0%;
   }
   .card2 {
-    width: 250px;
+    width: 290px;
   }
   .card2 img {
+    width: 100%;
     height: 50vh;
   }
   .card1 {
-    width: 250px;
+    width: 290px;
   }
   .card1 img {
+    width: 100%;
     height: 50vh;
   }
   .navbar-titulo {
