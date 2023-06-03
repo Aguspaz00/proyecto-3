@@ -190,6 +190,11 @@ body {
 }
 
 /*@medias queries*/
+@media screen and (max-width: 1700px) {
+  .salon-movile {
+    display: none;
+  }
+}
 @media screen and (max-width: 1600px) {
   .container {
     width: 1200px;
@@ -202,6 +207,9 @@ body {
   }
   .mapa {
     width: 560px;
+  }
+  .salon-movile {
+    display: none;
   }
 }
 @media screen and (max-width: 1500px) {
@@ -216,6 +224,9 @@ body {
   }
   .mapa {
     width: 560px;
+  }
+  .salon-movile {
+    display: none;
   }
 }
 @media screen and (max-width: 1300px) {
@@ -234,6 +245,9 @@ body {
   .width-actividades-senderos {
     width: 89%;
     padding-left: 10%;
+  }
+  .salon-movile {
+    display: none;
   }
 }
 @media screen and (max-width: 1198px) {
@@ -254,6 +268,9 @@ body {
   }
   .mapa {
     width: 400px;
+  }
+  .salon-movile {
+    display: none;
   }
 }
 @media screen and (max-width: 987px) {
@@ -278,6 +295,9 @@ body {
   .mapa {
     width: 350px;
   }
+  .salon-movile {
+    display: none;
+  }
 }
 @media screen and (max-width: 850px) {
   .actividades {
@@ -298,6 +318,9 @@ body {
   .mapa {
     width: 351px;
   }
+  .salon-movile {
+    display: none;
+  }
 }
 @media screen and (max-width: 830px) {
   .actividades {
@@ -317,6 +340,9 @@ body {
   }
   .mapa {
     width: 351px;
+  }
+  .salon-movile {
+    display: none;
   }
 }
 @media screen and (max-width: 790px) {
@@ -347,6 +373,9 @@ body {
     font-size: 12px;
     padding: 0px;
     margin: 0px;
+  }
+  .salon-movile {
+    display: none;
   }
 }
 @media screen and (max-width: 670px) {
@@ -381,6 +410,9 @@ body {
     padding: 0px;
     margin: 0px;
   }
+  .salon-movile {
+    display: none;
+  }
 }
 @media screen and (max-width: 660px) {
   .actividades {
@@ -414,6 +446,9 @@ body {
     padding: 0px;
     margin: 0px;
   }
+  .salon-movile {
+    display: none;
+  }
 }
 @media screen and (max-width: 570px) {
   .carouselIndex {
@@ -435,7 +470,7 @@ body {
     width: 420px;
   }
   .mapa {
-    width: 450px;
+    width: 400px;
   }
   .subtitulosSalon h5 {
     font-size: 15px;
@@ -445,6 +480,31 @@ body {
     font-size: 11px;
     padding: 0px;
     margin: 0px;
+  }
+  .salon-movile {
+    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .salon-movile .card {
+    width: 100%;
+    margin-top: 10px;
+    background-color: none;
+    color: none;
+  }
+  .salon-movile .card img {
+    width: 100%;
+    height: 300px;
+  }
+  .salon-movile .card h5 {
+    margin-top: 0%;
+    padding-top: 0%;
+  }
+  .salon-movile .card p {
+    font-size: 10px;
+  }
+  .carouselSalon {
+    display: none;
   }
 }
 @media screen and (max-width: 470px) {
@@ -487,6 +547,23 @@ body {
     font-size: 11px;
     padding: 0px;
     margin: 0px;
+  }
+  .salon-movile {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .salon-movile .card {
+    width: 100%;
+    margin-top: 10px;
+    background-color: none;
+    color: none;
+  }
+  .salon-movile .card img {
+    width: 100%;
+    height: 210px;
+  }
+  .carouselSalon {
+    display: none;
   }
 }
 @media screen and (max-width: 400px) {
@@ -563,6 +640,23 @@ body {
     width: 100%;
     height: 200px;
   }
+  .salon-movile {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .salon-movile .card {
+    width: 100%;
+    margin-top: 10px;
+    background-color: none;
+    color: none;
+  }
+  .salon-movile .card img {
+    width: 100%;
+    height: 190px;
+  }
+  .carouselSalon {
+    display: none;
+  }
 }
 @media screen and (max-width: 330px) {
   .carouselIndex {
@@ -603,6 +697,23 @@ body {
   .carouselSalon img {
     width: 300px;
     height: 200px;
+  }
+  .salon-movile {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .salon-movile .card {
+    width: 100%;
+    margin-top: 10px;
+    background-color: none;
+    color: none;
+  }
+  .salon-movile .card img {
+    width: 100%;
+    height: 180px;
+  }
+  .carouselSalon {
+    display: none;
   }
 }
 @media screen and (max-width: 328px) {
