@@ -46,7 +46,7 @@ body{
     width: 100%;
 }
 /*@medias queries*/
-@media screen and (max-width: 1700px){
+@media screen and (max-width: 1800px){
     .salon-movile{
         display:none;
     }
@@ -616,6 +616,8 @@ body{
     .mapa{
         width: 260px;
     }
-    
+    .carouselSalon{
+        display: none;
+    }
 }
 
