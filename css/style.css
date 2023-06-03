@@ -491,7 +491,7 @@ body {
     height: 700px;
   }
   .salon-movile .card img {
-    max-height: 90vh;
+    max-height: 600px;
   }
 }
 @media screen and (max-width: 470px) {
@@ -545,7 +545,7 @@ body {
     height: 700px;
   }
   .salon-movile .card img {
-    max-height: 90vh;
+    max-height: 600px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -632,7 +632,7 @@ body {
     height: 700px;
   }
   .salon-movile .card img {
-    max-height: 90vh;
+    max-height: 600px;
   }
 }
 @media screen and (max-width: 330px) {
@@ -685,7 +685,7 @@ body {
     height: 700px;
   }
   .salon-movile .card img {
-    max-height: 90vh;
+    max-height: 600px;
   }
 }
 @media screen and (max-width: 328px) {
@@ -723,7 +723,7 @@ body {
     height: 700px;
   }
   .salon-movile .card img {
-    max-height: 90vh;
+    max-height: 600px;
   }
 }
 
