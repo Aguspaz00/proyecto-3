@@ -487,6 +487,12 @@ body {
   .salon-movile {
     display: flex;
   }
+  .salon-movile .card {
+    height: 700px;
+  }
+  .salon-movile .card img {
+    max-height: 90vh;
+  }
 }
 @media screen and (max-width: 470px) {
   .carouselIndex {
@@ -534,6 +540,12 @@ body {
   }
   .salon-movile {
     display: flex;
+  }
+  .salon-movile .card {
+    height: 700px;
+  }
+  .salon-movile .card img {
+    max-height: 90vh;
   }
 }
 @media screen and (max-width: 400px) {
@@ -616,6 +628,12 @@ body {
   .salon-movile {
     display: flex;
   }
+  .salon-movile .card {
+    height: 700px;
+  }
+  .salon-movile .card img {
+    max-height: 90vh;
+  }
 }
 @media screen and (max-width: 330px) {
   .carouselIndex {
@@ -663,6 +681,12 @@ body {
   .salon-movile {
     display: flex;
   }
+  .salon-movile .card {
+    height: 700px;
+  }
+  .salon-movile .card img {
+    max-height: 90vh;
+  }
 }
 @media screen and (max-width: 328px) {
   .carouselIndex {
@@ -694,6 +718,12 @@ body {
   }
   .salon-movile {
     display: flex;
+  }
+  .salon-movile .card {
+    height: 700px;
+  }
+  .salon-movile .card img {
+    max-height: 90vh;
   }
 }
 

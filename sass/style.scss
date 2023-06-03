@@ -351,6 +351,12 @@ body{
     }
     .salon-movile{
         display: flex;
+        .card{
+            height:700px;
+            img{
+                max-height:90vh;
+            }
+        }
     }
 }
 @media screen and (max-width: 470px){
@@ -401,6 +407,12 @@ body{
     }
     .salon-movile{
         display: flex;
+        .card{
+            height:700px;
+            img{
+                max-height:90vh;
+            }
+        }
     }
 }
 @media screen and (max-width: 400px){
@@ -486,6 +498,12 @@ body{
     }
     .salon-movile{
         display: flex;
+        .card{
+            height:700px;
+            img{
+                max-height:90vh;
+            }
+        }
     }
 }
 @media screen and (max-width: 330px){
@@ -533,6 +551,12 @@ body{
     }
     .salon-movile{
         display: flex;
+        .card{
+            height:700px;
+            img{
+                max-height:90vh;
+            }
+        }
     }
 }
 @media screen and (max-width: 328px){
@@ -565,6 +589,12 @@ body{
     }
     .salon-movile{
         display: flex;
+        .card{
+            height:700px;
+            img{
+                max-height:90vh;
+            }
+        }
     }
 }
 
