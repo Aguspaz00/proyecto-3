@@ -346,32 +346,12 @@ body{
             margin: 0px;
         }
     }
-    .salon-movile{
-        width: 96%;
-        display:flex;
-        flex-wrap: wrap;
-        .card{
-            width: 100%;
-            margin-top: 10px;
-            background-color: none;
-            color: none;
-            img{
-                width: 100%;
-                height: 300px;
-            }
-            h5{
-                margin-top: 0%;
-                padding-top: 0%;
-            }
-            p{
-                font-size: 10px;
-            }
-        }
-    }
     .carouselSalon{
         display: none;
     }
-
+    .salon-movile{
+        display: flex;
+    }
 }
 @media screen and (max-width: 470px){
     .carouselIndex{
@@ -416,23 +396,11 @@ body{
             margin: 0px;
         }
     }
-    .salon-movile{
-        display:flex;
-        flex-wrap: wrap;
-        .card{
-            width: 100%;
-            margin-top: 10px;
-            background-color: none;
-            color: none;
-            img{
-                width: 100%;
-                height: 210px;
-            }
-            
-        }
-    }
     .carouselSalon{
         display: none;
+    }
+    .salon-movile{
+        display: flex;
     }
 }
 @media screen and (max-width: 400px){
@@ -513,23 +481,11 @@ body{
             height:200px;
         }
     }
-    .salon-movile{
-        display:flex;
-        flex-wrap: wrap;
-        .card{
-            width: 100%;
-            margin-top: 10px;
-            background-color: none;
-            color: none;
-            img{
-                width: 100%;
-                height: 190px;
-            }
-            
-        }
-    }
     .carouselSalon{
         display: none;
+    }
+    .salon-movile{
+        display: flex;
     }
 }
 @media screen and (max-width: 330px){
@@ -572,23 +528,11 @@ body{
             height:200px;
         }
     }
-    .salon-movile{
-        display:flex;
-        flex-wrap: wrap;
-        .card{
-            width: 100%;
-            margin-top: 10px;
-            background-color: none;
-            color: none;
-            img{
-                width: 100%;
-                height: 180px;
-            }
-            
-        }
-    }
     .carouselSalon{
         display: none;
+    }
+    .salon-movile{
+        display: flex;
     }
 }
 @media screen and (max-width: 328px){
@@ -618,6 +562,9 @@ body{
     }
     .carouselSalon{
         display: none;
+    }
+    .salon-movile{
+        display: flex;
     }
 }
 
