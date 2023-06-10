@@ -277,6 +277,10 @@ body {
   .salon-movile {
     display: none;
   }
+  .iframe-facebook {
+    width: 100%;
+    height: 170px;
+  }
 }
 @media screen and (max-width: 1600px) {
   .container {
@@ -294,6 +298,10 @@ body {
   .salon-movile {
     display: none;
   }
+  .iframe-facebook {
+    width: 100%;
+    height: 170px;
+  }
 }
 @media screen and (max-width: 1500px) {
   .container {
@@ -310,6 +318,10 @@ body {
   }
   .salon-movile {
     display: none;
+  }
+  .iframe-facebook {
+    width: 100%;
+    height: 180px;
   }
 }
 @media screen and (max-width: 1300px) {
@@ -331,6 +343,10 @@ body {
   }
   .salon-movile {
     display: none;
+  }
+  .iframe-facebook {
+    width: 100%;
+    height: 190px;
   }
 }
 @media screen and (max-width: 1198px) {
@@ -354,6 +370,10 @@ body {
   }
   .salon-movile {
     display: none;
+  }
+  .iframe-facebook {
+    width: 100%;
+    height: 200px;
   }
 }
 @media screen and (max-width: 987px) {
@@ -381,6 +401,10 @@ body {
   .salon-movile {
     display: none;
   }
+  .iframe-facebook {
+    width: 100%;
+    height: 200px;
+  }
 }
 @media screen and (max-width: 850px) {
   .actividades {
@@ -404,6 +428,10 @@ body {
   .salon-movile {
     display: none;
   }
+  .iframe-facebook {
+    width: 100%;
+    height: 200px;
+  }
 }
 @media screen and (max-width: 830px) {
   .actividades {
@@ -426,6 +454,10 @@ body {
   }
   .salon-movile {
     display: none;
+  }
+  .iframe-facebook {
+    width: 100%;
+    height: 230px;
   }
 }
 @media screen and (max-width: 790px) {
@@ -459,6 +491,10 @@ body {
   }
   .salon-movile {
     display: none;
+  }
+  .iframe-facebook {
+    width: 100%;
+    height: 220px;
   }
 }
 @media screen and (max-width: 670px) {
@@ -496,6 +532,10 @@ body {
   .salon-movile {
     display: none;
   }
+  .iframe-facebook {
+    width: 100%;
+    height: 250px;
+  }
 }
 @media screen and (max-width: 660px) {
   .actividades {
@@ -531,6 +571,10 @@ body {
   }
   .salon-movile {
     display: none;
+  }
+  .iframe-facebook {
+    width: 100%;
+    height: 240px;
   }
 }
 @media screen and (max-width: 570px) {
@@ -575,6 +619,10 @@ body {
   }
   .salon-movile .card img {
     max-height: 600px;
+  }
+  .iframe-facebook {
+    width: 100%;
+    height: 280px;
   }
 }
 @media screen and (max-width: 470px) {
@@ -629,6 +677,10 @@ body {
   }
   .salon-movile .card img {
     max-height: 600px;
+  }
+  .iframe-facebook {
+    width: 100%;
+    height: 300px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -717,6 +769,10 @@ body {
   .salon-movile .card img {
     max-height: 600px;
   }
+  .iframe-facebook {
+    width: 100%;
+    height: 370px;
+  }
 }
 @media screen and (max-width: 330px) {
   .carouselIndex {
@@ -770,6 +826,10 @@ body {
   .salon-movile .card img {
     max-height: 600px;
   }
+  .iframe-facebook {
+    width: 100%;
+    height: 450px;
+  }
 }
 @media screen and (max-width: 328px) {
   .carouselIndex {
@@ -807,6 +867,10 @@ body {
   }
   .salon-movile .card img {
     max-height: 600px;
+  }
+  .iframe-facebook {
+    width: 100%;
+    height: 450px;
   }
 }
 
