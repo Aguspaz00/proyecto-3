@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .navbar {
   background-color: black;
 }
@@ -163,113 +164,154 @@ body {
   margin: 0%;
   padding: 0%;
 }
-
-.carouselSalon img {
+body .carouselSalon img {
   max-width: 100%;
   max-height: 1000vh;
 }
-
-.card-salon .card {
+body .card-salon .card {
   background: rgb(0, 0, 0);
   margin: 2px;
 }
-.card-salon .card img {
+body .card-salon .card img {
   max-width: 100%;
   max-height: 75vh;
 }
-.card-salon .card h5 {
+body .card-salon .card h5 {
   color: #fff600;
 }
-
-.containerContactos .mapaContactos {
+body .containerContactos .mapaContactos {
   width: 100%;
 }
-
-.width-actividades {
+body .width-actividades {
   width: 100%;
 }
-
-.colTexto p {
+body .colTexto p {
   background-color: rgba(0, 0, 0, 0.786);
   padding-bottom: 20px;
   font-size: 18px;
 }
-.colTexto h6 {
+body .colTexto h6 {
   background-color: rgba(0, 0, 0, 0.786);
   padding-bottom: 8px;
   font-size: 20px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
-
-.cards-camping {
+body .cards-camping {
   margin-right: 0%;
 }
-.cards-camping .row {
+body .cards-camping .row {
   width: 100%;
   margin-left: 0%;
   margin-right: 0%;
 }
-.cards-camping .colImg img {
+body .cards-camping .colImg img {
   border: rgb(255, 255, 4) inset 5px;
   border-radius: 10px;
 }
-
-.img-comentarios {
+body .img-experiencias .modal-content {
+  width: 1000px;
+  min-width: 300px;
+  height: 700px;
+  margin: 0%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  background-color: rgb(255, 255, 255);
-  border-radius: 25px;
 }
-.img-comentarios a {
-  text-decoration: none;
-  list-style: none;
+body .img-experiencias .modal-content img {
+  width: 100%;
+  height: 300px;
 }
-.img-comentarios a img {
-  width: 40%;
-}
-.img-comentarios a p {
-  font-size: 15px;
-}
-.img-comentarios img {
-  width: 300px;
-  min-width: 300px;
-  max-height: 300px;
-  margin-bottom: 0%;
-}
-.img-comentarios p {
-  min-width: 300px;
-  margin-top: 0%;
-  background-color: rgb(34, 34, 34);
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.img-experiencias .btn {
+body .img-experiencias .btn {
   border: none;
 }
-.img-experiencias .card {
+body .img-experiencias .card {
   background-color: rgba(0, 0, 0, 0);
 }
-.img-experiencias .logo-experiencias {
+body .img-experiencias .logo-experiencias {
   max-height: 100px;
   border-radius: 30px;
   border: rgb(134, 190, 255) 3px inset;
 }
-.img-experiencias .logo-experiencias2 {
+body .img-experiencias .logo-experiencias2 {
   max-height: 100px;
   border-radius: 30px;
   border: rgb(255, 57, 133) 3px inset;
 }
-.img-experiencias .logo-experiencias3 {
+body .img-experiencias .logo-experiencias3 {
   max-height: 100px;
   border-radius: 30px;
   border: rgb(0, 8, 255) 3px inset;
 }
-.img-experiencias .logo-experiencias4 {
+body .img-experiencias .logo-experiencias4 {
   max-height: 100px;
   border-radius: 30px;
   border: rgb(23, 176, 0) 3px inset;
+}
+body .img-experiencias .experiencia-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+body .img-experiencias .experiencia-contenedor .experiencia-google {
+  width: 500px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+body .img-experiencias .experiencia-contenedor .experiencia-google .perfil-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 30px;
+}
+body .img-experiencias .experiencia-contenedor .experiencia-google .perfil-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: center;
+}
+body .img-experiencias .experiencia-contenedor .experiencia-google .perfil {
+  display: flex;
+  align-items: center;
+}
+body .img-experiencias .experiencia-contenedor .experiencia-google .perfil .name-user {
+  display: flex;
+  flex-direction: column;
+}
+body .img-experiencias .experiencia-contenedor .experiencia-google .perfil .name-user strong {
+  color: #000000;
+  font-size: 1.3rem;
+}
+body .img-experiencias .experiencia-contenedor .experiencia-google .perfil .name-user span {
+  color: #272727;
+  font-size: 1.1rem;
+}
+body .img-experiencias .experiencia-contenedor .experiencia-google .reseñas {
+  color: #f9d71c;
+}
+body .img-experiencias .experiencia-contenedor .experiencia-google .caja-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+body .img-experiencias .experiencia-contenedor .experiencia-google .comentarios-google p {
+  color: #4b4b4b;
+}
+body .img-experiencias .experiencia-contenedor .experiencia-google .comentarios-google a {
+  text-decoration: none;
+  list-style: none;
+}
+body .img-experiencias .experiencia-contenedor .experiencia-google ::selection {
+  color: white;
+  background-color: #252525;
 }
 
 /*@medias queries*/
@@ -538,6 +580,9 @@ body {
   }
 }
 @media screen and (max-width: 660px) {
+  .footer-widht {
+    width: 10px;
+  }
   .actividades {
     width: 500px;
     margin: 0%;
@@ -554,7 +599,7 @@ body {
     width: 500px;
   }
   .mapa {
-    width: 480px;
+    width: 450px;
   }
   .width-actividades-senderos {
     width: 80%;
